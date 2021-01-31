@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styleguide LobbyNator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <h1 class="headBar">Styleguide LobbyNator</h1>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Einleitung</a></li>
+                <li><a href="farben.html">Farben</a></li>
+                <li><a href="fonts.html">Fonts</a></li>
+                <li class="active"><a href="konvention.html">Code-Konventionen</a></li>
+                <li><a href="überschrift.html">Überschriften & Absätze</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <h2>Konventionen</h2>
+            <h3>Identierung</h3>
+            <img src="images/indentierung.png" alt="Indentierung Bild" class="indentImage">
+            <p class="float">
+                Wir verwenden aus persönlichen Präferenzen keinen Abstand vor der gewschwungenen Klammer.
+                <br>Pro Hierarchielevel wir ein Tab hinzugefügt.
+                <br>Attribute werden mit einem Tab eigerückt.
+            </p>
+            <h3>Einheiten</h3>
+            <p>Für Font Größenangaben verwenden wir rem.</p>
+            <p>Für generelle Größenangaben verwenden wir vh/vw für responsive Design und px für absolute Werte</p>
+            <h3>Dateistruktur</h3>
+            <p>Als Dateistruktur wenden wir das 7-1 Pattern an.</p>
+            <a href="https://gist.github.com/rveitch/84cea9650092119527bc" style="color: blue;">(Credits für das 7-1 Pattern)
+            </a>
+            <h3>Preprozessoren</h3>
+            <p>Sass</p>
+            <h3>Reset</h3>
+            <p>Als Reset bietet sich sich ein vorgefertigter Sytle an: <br><a href="https://meyerweb.com/eric/tools/css/reset/" style="color: blue;">Css Reset Link</a></p>
+            <h3>Naming Convention</h3>
+            <p>BEM 101 <a href="https://css-tricks.com/bem-101/" style="color: blue;">Click here for credits</a></p>
+            <img src="images/bem.png" alt="Bem Beispiel" style="width: 600px; margin-top: 1vh;">
+            <p>Wir haben uns für BEM entschieden, weil es für die Lesbarkeit/Übersicht von großem Vorteil ist.</p>
+        </aside>
+    </main>
+</body>
+</html>
