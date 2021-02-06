@@ -70,7 +70,7 @@ a{
     color: black;
 }
 a:hover{
-    color: #00793B;
+    color: orange;
 }
 li{
     margin-top: 1.2rem;
@@ -87,12 +87,12 @@ aside{
 }
 .active a{
     text-decoration: underline;
-    color: #00793B;
+    color: orange;
 }
 .colorbox{
     width: 130px;
     height: 130px;
-    background-color: #00793B;
+    background-color: #ffa500;
     transition: 0.5s;
     border-radius:20px;
 }
@@ -131,4 +131,77 @@ h3{
     background: #CCC6BD;
     color: #D50814;
     font-family: Snes;
+}
+.headerHeading{
+    font-size: 3rem;
+    color: orange;
+    font-family: Snes;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+}
+.h2-Heading{
+    font-size: 2rem;
+    color: orange;
+    font-family: Roboto;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+}
+.h3-Heading{
+    font-size: 1.5rem;
+    color: orange;
+    font-family: Roboto;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+}
+._p_text{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    min-width: 70px;
+    color: black;
+    word-break: break-word;
+}
+.pList{
+    margin-bottom: 2vh;
+}
+._btn_big{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    padding: 5px 10px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    max-width: 250px;
+    width: fit-content;
+}
+._btn_big:hover{
+    color: orange;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+._btn_medium{
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    padding: 5px 10px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    max-width: 250px;
+    width: fit-content;
+}
+._btn_medium:hover{
+    color: orange;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
 }
